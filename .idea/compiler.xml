@@ -13,11 +13,13 @@
         <module name="zipkin-server" />
         <module name="monitor-service" />
         <module name="user-service" />
+        <module name="blog-service" />
         <module name="config-server" />
         <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="blog-service" target="1.8" />
       <module name="common" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-client" target="1.8" />

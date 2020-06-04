@@ -24,6 +24,7 @@
         <module>monitor-service</module>
         <module>uaa-service</module>
         <module>common</module>
+        <module>blog-service</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
