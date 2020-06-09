@@ -25,6 +25,9 @@
         <module>uaa-service</module>
         <module>common</module>
         <module>blog-service</module>
+        <module>getway-service</module>
+        <module>logger-service</module>
+        <module>admin-service</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

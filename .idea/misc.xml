@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/monitor-service/pom.xml" />
         <option value="$PROJECT_DIR$/uaa-service/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/logger-service/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-service/pom.xml" />
       </list>
     </option>
   </component>

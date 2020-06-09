@@ -9,21 +9,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="uaa-service" />
         <module name="eureka-server" />
+        <module name="getway-service" />
         <module name="eureka-client" />
         <module name="zipkin-server" />
         <module name="monitor-service" />
-        <module name="user-service" />
-        <module name="blog-service" />
-        <module name="config-server" />
         <module name="common" />
+        <module name="logger-service" />
+        <module name="user-service" />
+        <module name="config-server" />
+        <module name="admin-service" />
+        <module name="blog-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin-service" target="1.8" />
       <module name="blog-service" target="1.8" />
       <module name="common" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="getway-service" target="1.8" />
+      <module name="logger-service" target="1.8" />
       <module name="monitor-service" target="1.8" />
       <module name="monitoring-service" target="1.8" />
       <module name="spring-cloud-in-action" target="1.8" />
@@ -34,10 +40,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-service" options="" />
       <module name="common" options="" />
       <module name="config-server" options="" />
       <module name="eureka-client" options="" />
       <module name="eureka-server" options="" />
+      <module name="logger-service" options="" />
       <module name="monitor-service" options="" />
       <module name="monitoring-service" options="" />
       <module name="spring-cloud-in-action" options="" />
